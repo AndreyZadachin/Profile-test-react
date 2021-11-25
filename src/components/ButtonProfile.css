@@ -1,0 +1,28 @@
+.profile__button {
+  width: 293px;
+  height: 77px;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 152.51%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  background: linear-gradient(180deg, #441e78 0%, #633d8d 100%);
+  box-shadow: 20px 20px 200px rgba(240, 240, 240, 0.48);
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 580px) {
+  .profile__button {
+    width: 208px;
+    height: 54px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 9px;
+    padding-top: 5px;
+  }
+}

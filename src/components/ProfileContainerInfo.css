@@ -1,0 +1,37 @@
+.profile__container-info {
+  margin-bottom: 8px;
+}
+@media (min-width: 320px) and (max-width: 580px) {
+  .profile__container-info {
+    margin-bottom: 4px;
+  }
+}
+@media (max-width: 860px) {
+  .profile__item-user_mod-media {
+    order: 2;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 320px) and (max-width: 580px) {
+  .profile__item-user_mod-media {
+    order: 2;
+    margin-bottom: 0;
+  }
+}
+
+.profile__item {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 152.51%;
+  letter-spacing: 0.05em;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 0;
+  padding-top: 1px;
+}
+@media (min-width: 320px) and (max-width: 580px) {
+  .profile__item {
+    font-size: 10px;
+  }
+}

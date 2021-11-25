@@ -1,0 +1,42 @@
+.profile__foto {
+  min-width: 319px;
+  height: 366px;
+  background: #ebebeb;
+  border-radius: 10px;
+  position: relative;
+}
+@media (min-width: 320px) and (max-width: 580px) {
+  .profile__foto {
+    min-width: 103px;
+    height: 118px;
+  }
+}
+
+.profile__foto-edit {
+  position: absolute;
+  top: 18px;
+  left: 280px;
+}
+@media (min-width: 320px) and (max-width: 580px) {
+  .profile__foto-edit {
+    width: 8px;
+    height: 8px;
+    top: 6px;
+    left: 89px;
+  }
+}
+
+.profile__foto-img {
+  width: 178px;
+  height: 213px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (min-width: 320px) and (max-width: 580px) {
+  .profile__foto-img {
+    width: 57px;
+    height: 68px;
+  }
+}

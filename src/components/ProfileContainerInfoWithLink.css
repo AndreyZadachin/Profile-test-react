@@ -1,0 +1,13 @@
+.profile__item-user_mod {
+  font-size: 24px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 580px) {
+  .profile__item-user_mod {
+    font-size: 12px;
+    margin-top: 1px;
+    margin-bottom: -2px;
+  }
+}
