@@ -178,10 +178,9 @@
   }
 }
 
-@media (min-width: 581) and (max-width: 860px) {
+@media (min-width: 581px) and (max-width: 860px) {
   .profile__item_mod-media.profile__item_mod-media {
     order: 1;
-    width: 74px;
     margin-top: 50px;
     margin-left: -360px;
   }
