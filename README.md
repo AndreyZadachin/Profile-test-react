@@ -8,6 +8,6 @@
 
 Инструкция по развертыванию проекта:
 
-1. Склонировать в локальный репозиторий - git clone https://github.com/AndreyZadachin
+1. Склонировать в локальный репозиторий - git clone https://github.com/AndreyZadachin/profile-react
 2. Установить пакеты (должен быть установлен node.js <https://nodejs.org/en/>) - npm i
 3. Запуск на локальном сервере - npm start
